@@ -1,0 +1,26 @@
+{
+    "name": "snezhana-star/demo-collect",
+    "description": "lf",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Snezhana-star",
+            "email": "cnega.2002@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+
+
+}
